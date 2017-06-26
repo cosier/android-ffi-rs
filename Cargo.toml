@@ -1,0 +1,8 @@
+[package]
+name = "android_ffi"
+version = "0.1.0"
+authors = ["Bailey Cosier <bailey@cosier.ca>"]
+license = "MIT"
+description = "Android FFI Helpers"
+repository = "https://github.com/cosier/android-ffi-rs"
+
