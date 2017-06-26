@@ -155,8 +155,8 @@ pub trait SyncEventHandler {
     fn handle(&mut self, event: &Event);
 }
 
-#[cfg(not(target_os = "android"))]
-use this_platform_is_not_supported;
+// #[cfg(not(target_os = "android"))]
+// use this_platform_is_not_supported;
 
 static mut g_mainthread_boxed: Option<*mut Receiver<()>> = Option::None;
 
